@@ -1,0 +1,75 @@
+body{
+    background-color: #ddd;
+}
+header{
+    background-color: #fff;
+    margin: 20px;
+    padding: 25px 0px;
+}
+
+.logo {
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+.logo p {
+    text-align: center;
+    font-style: italic;
+}
+/* barra de pesquisa */
+.menu {
+    background-color: #333;
+    padding: 20px 0px;
+    border-radius: 0% 0% 15px 15px;
+}
+.menu a {
+    color: white;
+    padding-left: 8px;
+    text-decoration: none;
+    font-size: large;
+    font-size: 30px;
+}
+
+/* but */
+main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #fff;
+    padding: 25px 0px;
+    margin: 0 20px;
+}
+
+.pesquisa {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    margin: 20px 0px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#pp {
+    width: 700px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 10px ;
+    font-family:  Courier;
+    font-weight: 600;
+    text-align: center;
+}
